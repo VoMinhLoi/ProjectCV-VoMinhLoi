@@ -96,7 +96,7 @@
                         <li class="header-nav__item ">
                             <img src="./assets/img/user.png" alt="userlogin" class="header-nav__item-user-img">
                             <span class="header-nav__item-user header-nav__item-user-name header-nav__item--strong">Võ Minh Lợi</span>
-                            <ul class="header-nav__item-myaccount ">
+                            <ul class="header-nav__item-myaccount js-open-modal">
                                 <li class="header-nav__item-myaccount-item js-open-modal">Tài Khoản của tôi</li>
                                 <li class="header-nav__item-myaccount-item js-open-modal">Đơn mua</li>
                                 <li class="header-nav__item-myaccount-item js-open-modal">Đăng xuất</li>
@@ -1639,7 +1639,7 @@
         const ways = document.querySelectorAll('.js-notaccess')
 
         function showSorry() {
-            alert("Hiện tại chúng tôi chưa mở tính năng người dùng, quý khách thông cảm và nhấn trở lại. Chúng tôi sẽ cập nhật lên sớm nhất. Xin cảm ơn!")
+            alert("Hiện tại chúng tôi chưa mở tính năng người dùng, quý khách thông cảm và nhấn TRỞ LẠI hoặc OK. Chúng tôi sẽ cập nhật lên sớm nhất. Xin cảm ơn!")
         }
         for (const way of ways) {
             way.addEventListener('click', showSorry)
