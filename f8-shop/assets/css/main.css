@@ -1192,6 +1192,7 @@ i.container-product-describe-remarks__liked--fill {
 /* Footer */
 
 .footer {
+    width: 100%;
     border-top: 4px solid var(--primary-color);
     background-color: white;
 }
